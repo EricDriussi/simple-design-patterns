@@ -1,6 +1,6 @@
 # TL;DR
 
-An object maintains a list of dependent objects (observers) and notifies them directly when needed.
+An object maintains a list of dependent objects (Observers) and notifies them directly when needed.
 
 # Usefulness
 

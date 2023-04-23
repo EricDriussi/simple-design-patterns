@@ -1,4 +1,4 @@
-import { EmailStrategy, Person, SMSStrategy } from "./implementation";
+import { EmailStrategy, Person, SMSStrategy } from "./pattern_implementation";
 
 const peter = new Person("Peter");
 const john = new Person("John");

@@ -1,4 +1,4 @@
-import { AirlineA, AirlineB, Display, Passenger, isLateEvent, goToGateEvent } from "./implementation";
+import { AirlineA, AirlineB, Display, Passenger, isLateEvent, goToGateEvent } from "./pattern_implementation";
 
 const airportDisplay = new Display();
 // Airlines and Passangers are only coupled to Display
@@ -7,7 +7,7 @@ const airlineB = new AirlineB(airportDisplay);
 const passengerJohn = new Passenger("John", airportDisplay);
 const passengerPeter = new Passenger("Peter", airportDisplay);
 
-// Each passenger only knowss about the event he is interested in
+// Each passenger only knows about the event he is interested in
 passengerJohn.subscribe(goToGateEvent);
 passengerPeter.subscribe(isLateEvent);
 

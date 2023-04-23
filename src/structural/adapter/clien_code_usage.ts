@@ -1,12 +1,12 @@
-import { AndroidPhone, ApplePhone, LightningToMicroUsbAdapter } from "./implementation";
+import { AndroidPhone, ApplePhone, LightningToUsbCAdapter } from "./pattern_implementation";
 
 function chargeAndroidPhone(phone: AndroidPhone) {
-	phone.useMicroUsb();
+	phone.useUsbC();
 }
 
 const pixel = new AndroidPhone();
 chargeAndroidPhone(pixel);
 
 const iphone = new ApplePhone();
-// chargeAndroidPhone(iphone); Doesn't work
-chargeAndroidPhone(new LightningToMicroUsbAdapter(iphone)); // Let's you charge your iphone
+chargeAndroidPhone(iphone); // Doesn't work
+chargeAndroidPhone(new LightningToUsbCAdapter(iphone)); // Let's you charge your iphone

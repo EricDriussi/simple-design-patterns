@@ -1,4 +1,4 @@
-import { Pizza, Pizzeria } from "./implementation";
+import { Pizza, Pizzeria } from "./pattern_implementation";
 
 // Without Factory
 const margherita: Pizza = new Pizza("medium", 1, false, true, false);

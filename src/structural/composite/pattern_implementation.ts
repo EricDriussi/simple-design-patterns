@@ -18,6 +18,9 @@ export class SeniorDeveloper implements SoftwareCreator {
 
 export class DevelopmentFirm implements SoftwareCreator {
 	constructor(private readonly developers: SoftwareCreator[]) {}
+	// Disregard the complexity of this function.
+	// Rather, focus on how it behaves the same for a group of devs as for an individual.
+	// Implementation details may vary, but in the end it just gives an estimate.
 	estimateDeliveryTime(features: number): number {
 		const groupVelocitySum = this.developers.reduce((prev, curr) => {
 			return prev + curr.estimateDeliveryTime(1);

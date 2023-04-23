@@ -53,4 +53,4 @@ export class Display implements Broker {
 
 type Event = { NAME: string };
 export const isLateEvent: Event = { NAME: "AIRPLANE_IS_LATE" };
-export const goToGateEvent: Event = { NAME: "AIRPLANE_IS_LATE" };
+export const goToGateEvent: Event = { NAME: "GO_TO_GATE" };

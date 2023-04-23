@@ -7,4 +7,4 @@ Usually presented as a separate class from the object to be created.
 
 - Adds semantics to the instantiation.
 - Hides instantiation logic.
-- Simplifies construction of complex objects.
+- Simplifies and defers construction of complex objects.

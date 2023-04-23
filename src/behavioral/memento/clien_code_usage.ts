@@ -1,4 +1,4 @@
-import { TextEditor } from "./implementation";
+import { TextEditor } from "./pattern_implementation";
 
 const editor = new TextEditor();
 

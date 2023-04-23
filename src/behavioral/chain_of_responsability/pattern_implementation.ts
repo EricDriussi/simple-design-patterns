@@ -7,7 +7,7 @@ interface ChainLink<T> {
 	handle(item: T): void;
 }
 
-// Not strictly needed, used to remove duplicated logic
+// Not strictly needed, used here to remove duplicated logic
 abstract class TechSupport implements ChainLink<TechSupportCall> {
 	protected nextLink: ChainLink<TechSupportCall>;
 	setNext(next: ChainLink<TechSupportCall>) {
@@ -64,7 +64,7 @@ export class AdvancedTechSupport extends TechSupport {
 export class SysAdminTechSupport extends TechSupport {
 	handle(call: TechSupportCall) {
 		if (call.complexity == Complexity.IMPOSSIBLE) {
-			console.log("This is tough, call the sysadmin...");
+			console.log("This is tough, call the ghostbusters...");
 		} else {
 			super.handle(call);
 		}

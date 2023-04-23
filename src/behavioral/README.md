@@ -1,9 +1,10 @@
 # TL;DR
 
-The Behavioral patterns focus on how objects communicate.
+The Behavioral Patterns focus on how objects communicate.
 
 Sometimes, object behavior and communication can become rigid, difficult to adapt or update.
-Solve this problem by structuring these object's behavior according to common communication patterns.
+
+Solve this issue by structuring the object's behavior according to common communication patterns.
 
 # Patterns
 

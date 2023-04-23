@@ -1,4 +1,4 @@
-import { Barista, CateringService, Cheff, Courier, Waiter } from "./implementation";
+import { Barista, CateringService, Cheff, Courier, Waiter } from "./pattern_implementation";
 
 // Without Facade
 const cheff = new Cheff();

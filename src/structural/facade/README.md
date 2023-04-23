@@ -1,6 +1,6 @@
 # TL;DR
 
-A simplified interface to a larger body of code.
+A simplified interface to a larger (uglier) body of code.
 
 # Usefulness
 

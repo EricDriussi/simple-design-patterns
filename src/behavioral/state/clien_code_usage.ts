@@ -1,4 +1,4 @@
-import { Person, Package } from "./implementation";
+import { Person, Package } from "./pattern_implementation";
 
 const peter = new Person("Peter");
 const john = new Person("John");

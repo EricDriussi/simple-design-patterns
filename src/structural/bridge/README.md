@@ -1,6 +1,6 @@
 # TL;DR
 
-Instead of a single complex hierarchy, build separate, simpler hierarchies and compse them together.
+Instead of a single complex hierarchy, build separate, simpler hierarchies and compose them together.
 
 # Usefulness
 

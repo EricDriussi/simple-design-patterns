@@ -1,6 +1,6 @@
 # TL;DR
 
-A state defines how an object behaves as a whole, as well as the next state it should go to.
+Lets an object alter its behavior when its internal state changes.
 The client code is unaware of the possible states.
 
 # Usefulness

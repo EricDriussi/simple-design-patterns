@@ -1,4 +1,4 @@
-import { ToDo, ToDoContainer } from "./implementation";
+import { ToDo, ToDoContainer } from "./pattern_implementation";
 
 const toDos = [new ToDo("a thing", 10), new ToDo("another thing", 30), new ToDo("yet another thing", 20)];
 

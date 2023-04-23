@@ -1,14 +1,14 @@
-interface DaftPunk {
+interface Singer {
 	sing(): string;
 }
 
-export class Human implements DaftPunk {
+export class Human implements Singer {
 	sing(): string {
 		return "Ehm... ";
 	}
 }
 
-abstract class HumanDecorator implements DaftPunk {
+abstract class HumanDecorator implements Singer {
 	constructor(readonly human: Human) {}
 	sing(): string {
 		return this.human.sing();

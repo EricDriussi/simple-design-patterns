@@ -15,3 +15,4 @@ export class Pizza {
 		return new Pizza("medium", 1, true, true, false);
 	}
 }
+// No external class needed

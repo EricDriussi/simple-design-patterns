@@ -1,4 +1,4 @@
-import { Table, Waiter } from "./implementation";
+import { Table, Waiter } from "./pattern_implementation";
 
 const waiterJohn = new Waiter("John");
 const waiterPeter = new Waiter("Peter");

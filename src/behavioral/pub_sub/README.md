@@ -1,8 +1,7 @@
 # TL;DR
 
-An object maintains a list of dependent objects (observers) and notifies them directly when needed.
+An object publishes an event to a bus or channel, to which some other objects are subscribed (reacting to these events).
 
 # Usefulness
 
-- Allows updating dependencies at run time.
-- Removes the need for external orchestration, pushing logic inside the object.
+- Complete decoupling between Publishers and Subscribers.

@@ -1,4 +1,4 @@
-import { Bartender, Cheff, Order, Waiter } from "./implementation";
+import { Bartender, Cheff, Order, Waiter } from "./pattern_implementation";
 
 const cheff = new Cheff();
 const foodOrder = new Order(cheff, "Pizza");

@@ -1,4 +1,4 @@
-import { EUHouseBuilder, USHouseBuilder } from "./implementation";
+import { EUHouseBuilder, USHouseBuilder } from "./pattern_implementation";
 
 const americanHouseBuilder = new USHouseBuilder();
 americanHouseBuilder.build();

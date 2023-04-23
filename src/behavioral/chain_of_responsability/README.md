@@ -1,9 +1,9 @@
 # TL;DR
 
-A system in which an object 'A' passes through a dynamic chain of linked objects until one of them handles it.
-Each of these linked objects **either** take responsibility for 'A' **or** passes it to the next one.
+A system in which an object "A" passes through a dynamic chain of linked objects until one of them handles it.
+Each of these linked objects **either** take responsibility for "A" **or** passes it to the next one.
 
-Some less strict implementations allow for the linked objects to **both** process **and** pass the processed object along.
+Some less strict implementations allow for the linked objects to **both** process **and** pass the object along.
 This blurs the line between CoR and Middleware.
 
 # Usefulness

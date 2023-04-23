@@ -1,4 +1,4 @@
-import { Better, Faster, Harder, Human, Stronger } from "./implementation";
+import { Better, Faster, Harder, Human, Stronger } from "./pattern_implementation";
 
 let human = new Human();
 console.log(human.sing()); // "Ehm... "
@@ -14,3 +14,7 @@ console.log(human.sing()); // "Ehm... Work it harder, Make it better, Do it fast
 
 human = new Stronger(human);
 console.log(human.sing()); // "Ehm... Work it harder, Make it better, Do it faster, Makes us stronger, "
+
+// OR
+const human2 = new Stronger(new Faster(new Better(new Harder(new Human()))));
+console.log(human2.sing()); // "Ehm... Work it harder, Make it better, Do it faster, Makes us stronger, "

@@ -1,4 +1,4 @@
-import { Blue, Ford, Mercedes, Red } from "./implementation";
+import { Blue, Ford, Mercedes, Red } from "./pattern_implementation";
 
 const redFord = new Ford(new Red());
 redFord.madeIn; // "USA"

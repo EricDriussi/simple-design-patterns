@@ -1,4 +1,4 @@
-import { Department, Management } from "./implementation";
+import { Department, Management } from "./pattern_implementation";
 
 const management = new Management();
 

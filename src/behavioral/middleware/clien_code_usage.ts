@@ -1,4 +1,11 @@
-import { Pen, InkMiddleware, PenAssembly, TipMiddleware, BarrelMiddleware, SpringMiddleware } from "./implementation";
+import {
+	Pen,
+	InkMiddleware,
+	PenAssembly,
+	TipMiddleware,
+	BarrelMiddleware,
+	SpringMiddleware,
+} from "./pattern_implementation";
 
 const inkMiddleware: InkMiddleware = new InkMiddleware();
 const tipMiddleware: TipMiddleware = new TipMiddleware();
