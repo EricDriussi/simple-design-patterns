@@ -1,4 +1,4 @@
-# TL;DR
+# Description
 
 Instead of a single complex hierarchy, build separate, simpler hierarchies and compose them together.
 

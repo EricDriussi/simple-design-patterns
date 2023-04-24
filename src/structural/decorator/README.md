@@ -1,4 +1,4 @@
-# TL;DR
+# Description
 
 A way to add behavior to an object at run time without modifying the underlying class or other objects of its type.
 

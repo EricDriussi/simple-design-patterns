@@ -1,4 +1,4 @@
-# TL;DR
+# Description
 
 Lets an object alter its behavior when its internal state changes.
 The client code is unaware of the possible states.

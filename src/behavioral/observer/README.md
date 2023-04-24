@@ -1,4 +1,4 @@
-# TL;DR
+# Description
 
 An object maintains a list of dependent objects (Observers) and notifies them directly when needed.
 

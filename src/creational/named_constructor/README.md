@@ -1,4 +1,4 @@
-# TL;DR
+# Description
 
 A simple wrapper around the constructor.
 

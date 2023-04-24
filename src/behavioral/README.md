@@ -1,4 +1,4 @@
-# TL;DR
+# Description
 
 The Behavioral Patterns focus on how objects communicate.
 

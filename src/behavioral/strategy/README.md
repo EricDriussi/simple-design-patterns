@@ -1,4 +1,4 @@
-# TL;DR
+# Description
 
 Defines a family of interchangeable algorithms with a common interface and goal, making them swappable at run time.
 The client code has to be aware of the possible strategies.

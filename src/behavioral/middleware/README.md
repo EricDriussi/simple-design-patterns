@@ -1,4 +1,4 @@
-# TL;DR
+# Description
 
 A system in which an object "A" passes through a series of objects (Middelwares) for processing.
 Each of these linked objects modify the object "A" and invoke the next one up.

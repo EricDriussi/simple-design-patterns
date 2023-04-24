@@ -1,4 +1,4 @@
-# TL;DR
+# Description
 
 A wrapper around an object/class.
 Used to make its interface compatible with another one.

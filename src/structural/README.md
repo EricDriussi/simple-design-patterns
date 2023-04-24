@@ -1,4 +1,4 @@
-# TL;DR
+# Description
 
 The Structural Patterns focus on how interdependent objects are composed together.
 

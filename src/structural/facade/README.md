@@ -1,4 +1,4 @@
-# TL;DR
+# Description
 
 A simplified interface to a larger (uglier) body of code.
 
